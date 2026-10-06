@@ -26,6 +26,11 @@ def the_hunt_winners():
         value="N/A\n",
         inline=False,
     )
+    embed.add_field(
+        name="<:maggot:1556843833298518157> Chapter V (Maggot King)",
+        value="N/A\n",
+        inline=False,
+    )
 
     embed.set_thumbnail(url="https://i.imgur.com/8GI8n4g.png")
 
