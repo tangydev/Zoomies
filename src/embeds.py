@@ -231,7 +231,7 @@ def bingo_winners_embeds():
 
     biscuit.set_footer(text="September 17th, 2026")
 
-    biscuit.set_image(url="https://i.imgur.com/RoEYfXs.jpeg")
+    biscuit.set_image(url="https://i.imgur.com/oaEmKAI.jpeg")
 
     embeds.append(firstbingo_embed)
     embeds.append(candyland_embed)
