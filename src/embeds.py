@@ -216,6 +216,18 @@ def bingo_winners_embeds():
 
     garden.set_image(url="https://i.imgur.com/YHcLWJU.jpeg")
 
+    biscuit = discord.Embed(title="Biscuit Buff Bingo (2026)")
+    
+    biscuit.add_field(
+        name="",
+        value=f"{trophy_emojis[1]} Smartpants77, Enza Denino, Hoobloob, Gheyshitiron, Mayss, AnjunaJeep, Braillinn, Sugmafly, Alexuh, ReinMoose, Clogging, Muttis, Snowhillz, Dexter Lou, Yewniv3rse, Centac, noobirini, PlVET, Dranimor, Akiwoo",
+        inline=False,
+    )
+
+    biscuit.set_footer(text="September 17th, 2026")
+
+    biscuit.set_image(url="https://i.imgur.com/RoEYfXs.jpeg")
+
     embeds.append(firstbingo_embed)
     embeds.append(candyland_embed)
     embeds.append(snakes_embed)
@@ -227,6 +239,7 @@ def bingo_winners_embeds():
     embeds.append(duobingo)
     embeds.append(skw)
     embeds.append(garden)
+    embeds.append(biscuit)
 
     return embeds
 
