@@ -70,6 +70,8 @@ async def build_highest_kcs_embed(category: int):
                     return obj.data.score, "KC"
                 elif hasattr(obj.data, "experience"):
                     return obj.data.experience, "XP"
+                elif hasattr(obj.data, "value"):
+                    return round(obj.data.value), "hrs"
                 return 0, "ERROR"
 
             main_amount, _ = extract_value(normies[0])
